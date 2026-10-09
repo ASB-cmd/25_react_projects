@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import QRcodeGeneterator from './components/qr-code-generator';
+// import ImageSlider from './components/imageslider/image';
+// import LoadMoreData from './components/load-more-data';
+// import TreeView from './components/tree-view';
+// import menus from './components/tree-view/data';
+// import Accordian from './components/accordian';
+// import StarRating from './components/starRating';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Accordian/> */}
+      {/* <StarRating/> */}
+      {/* <ImageSlider url={'https://picsum.photos/v2/list'} page = {'1'}limit={'10'}/> */}
+      {/* <LoadMoreData/> */}
+      {/* <TreeView menus={menus}/> */}
+      <QRcodeGeneterator />
     </div>
   );
 }
